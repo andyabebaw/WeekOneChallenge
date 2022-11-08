@@ -107,65 +107,27 @@ p {
     background-color: #2589bd;
 }
 
-/* applies margin and color styling to the benefit lead class */
-.benefit-lead {
+/* applies margin and color styling to the icon class */
+.icon {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* applies margin and color styling to the benefit brand class */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* applies margin and color styling to the benefit cost class */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* applies margin and text alignment styling to h3 headers in the benefit lead class */
-.benefit-lead h3 {
+/* applies margin and text alignment styling to h3 headers in the icon class */
+.icon h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* applies margin and text alignment styling to h3 headers in the benefit brand class */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* applies margin and text alignment styling to h3 headers in the benefit cost class */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* applies display, margin and width styling to img headers in the benefit lead class */
-.benefit-lead img {
+/* applies display, margin and width styling to img headers in the icon class */
+.icon img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* applies display, margin and width styling to img headers in the benefit brand class */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* applies display, margin and width styling to img headers in the benefit cost class */
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* applies various styling to the search engine optimization class */
-.search-engine-optimization {
+/* applies various styling to the card class */
+.card {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -174,55 +136,14 @@ p {
     color: #ffffff;
 }
 
-/* applies various styling to the online-reputation-management class */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* applies various styling to the social-media-marketing class */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* applies image height styling to the images in the SEO Class */
-.search-engine-optimization img {
+/* applies image height styling to the images in the card Class */
+.card img {
     max-height: 200px;
 }
 
-/* applies image height styling to the images in the online-reputation-management Class */
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-/* applies image height styling to the images in the online-reputation-management Class */
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* applies margin and font styling to the h2's in the SEO Class */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* applies margin and font styling to the h2's in the online-reputation-managemen Class */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* applies margin and font styling to the h2's in the social-media-marketing Class */
-.social-media-marketing h2 {
+/* applies margin and font styling to the h2's in card Class */
+.card h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
