@@ -11,7 +11,7 @@ body {
 }
 
 /* applies padding, text styling and coloring to the header */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -19,18 +19,18 @@ body {
 }
 
 /* applies display and font styling to h1's in the header */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* applies color styling to elements with the seo class in a h1 in a header */
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* applies styling to divs in the header */
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -40,13 +40,13 @@ body {
 
 
 /* applies styling to unordered lists in divs in the header */
-.header div ul {
+header div ul {
     list-style-type: none;
 }
 
 
 /* applies styling to list items in the div in the header */
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -228,7 +228,7 @@ p {
 }
 
 /* applies various styling to the footer element */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -236,6 +236,6 @@ p {
 }
 
 /* applies font styling to the header 2 elements in the footer */
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
