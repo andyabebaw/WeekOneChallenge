@@ -1,0 +1,241 @@
+/* Applies to all */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* applies background color to body only */
+body {
+    background-color: #d9dcd6;
+}
+
+/* applies padding, text styling and coloring to the header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* applies display and font styling to h1's in the header */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* applies color styling to elements with the seo class in a h1 in a header */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* applies styling to divs in the header */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+/* applies styling to unordered lists in divs in the header */
+.header div ul {
+    list-style-type: none;
+}
+
+
+/* applies styling to list items in the div in the header */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+/* applies styling to links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* applies styling to paragraphs */
+p {
+    font-size: 16px;
+}
+
+
+/* applies styling to the class hero */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* the float left class displats on the left side */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* the float right class displats on the right side */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* content class takes up 75% of the sceen and is inline block */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* applies styling to the benefit class */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* applies margin and color styling to the benefit lead class */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* applies margin and color styling to the benefit brand class */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* applies margin and color styling to the benefit cost class */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* applies margin and text alignment styling to h3 headers in the benefit lead class */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* applies margin and text alignment styling to h3 headers in the benefit brand class */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* applies margin and text alignment styling to h3 headers in the benefit cost class */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* applies display, margin and width styling to img headers in the benefit lead class */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* applies display, margin and width styling to img headers in the benefit brand class */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* applies display, margin and width styling to img headers in the benefit cost class */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* applies various styling to the search engine optimization class */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* applies various styling to the online-reputation-management class */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* applies various styling to the social-media-marketing class */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* applies image height styling to the images in the SEO Class */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* applies image height styling to the images in the online-reputation-management Class */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* applies image height styling to the images in the online-reputation-management Class */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* applies margin and font styling to the h2's in the SEO Class */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* applies margin and font styling to the h2's in the online-reputation-managemen Class */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* applies margin and font styling to the h2's in the social-media-marketing Class */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* applies various styling to the footer element */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* applies font styling to the header 2 elements in the footer */
+.footer h2 {
+    font-size: 20px;
+}
